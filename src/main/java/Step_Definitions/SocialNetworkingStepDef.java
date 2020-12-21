@@ -68,4 +68,12 @@ assertThat(responseForPostCall.statusCode(), is (statusCode));
     @Then("i should get the correct {string},{string}, {string} and {string} returned and with status code of {int}")
     public void iShouldGetTheCorrectAndReturnedAndWithStatusCodeOf(String arg0, String arg1, String arg2, String arg3, int arg4) {
     }
+
+    @When("i search for {string} of a comment with a GET method")
+    public void iSearchForOfACommentWithAGETMethod(String arg0) {
+    }
+
+    @Then("i should get the correct {string}, {string}, {string} and {string} returned with status code of {int}")
+    public void iShouldGetTheCorrectAndReturnedWithStatusCodeOf(String arg0, String arg1, String arg2, String arg3, int arg4) {
+    }
 }
